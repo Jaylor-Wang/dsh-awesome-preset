@@ -31,22 +31,33 @@
 在 DeepSeek Harness 环境中运行：
 
 ```bash
+# 推荐：通过 npm 安装
 dsh plugin --profile web add dsh-awesome-preset
-# 或直接通过 GitHub 仓库安装
-dsh plugin --profile web add https://github.com/Jaylor-Wang/dsh-awesome-preset
+
+# 或直接通过 GitHub 安装
+dsh plugin --profile web add github:Jaylor-Wang/dsh-awesome-preset
 ```
 
-或克隆到本地后通过软链接引入：
+### 本地开发与软链接
+
+克隆到本地后直接通过软链接引入你的 profile：
 
 ```bash
 git clone https://github.com/Jaylor-Wang/dsh-awesome-preset.git
+dsh plugin --profile web add ./dsh-awesome-preset
+```
+
+检查安装状态：
+
+```bash
+dsh plugin --profile web list
 ```
 
 ## 使用说明
 
-1. 启动或重启 DeepSeek Harness（`dsh web`）；
-2. 在输入框上方的 Agent 预设选择器中切换选中 **`awesome-agent`**；
-3. 即可畅享极速日常编码体验。
+1. 启动或重启 DeepSeek Harness（`dsh web`），加载 Cordis 补丁树；
+2. 在 Web 界面中打开会话，从输入框上方的 Agent 预设下拉列表中选择 **`awesome-agent`**；
+3. 立即体验纯粹、极速的直接编码工作流！
 
 ## 开源协议
 

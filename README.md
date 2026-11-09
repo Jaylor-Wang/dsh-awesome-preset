@@ -31,22 +31,33 @@ Ultra-lean daily coding agent preset for [DeepSeek Harness (`dsh`)](https://gith
 Run in your DeepSeek Harness environment:
 
 ```bash
+# Recommended: install from npm
 dsh plugin --profile web add dsh-awesome-preset
-# or via GitHub repository
-dsh plugin --profile web add https://github.com/Jaylor-Wang/dsh-awesome-preset
+
+# Or install directly from GitHub
+dsh plugin --profile web add github:Jaylor-Wang/dsh-awesome-preset
 ```
 
-Or clone locally and link into your DSH profile:
+### Local Development / Linking
+
+Clone locally and link directly into your profile:
 
 ```bash
 git clone https://github.com/Jaylor-Wang/dsh-awesome-preset.git
+dsh plugin --profile web add ./dsh-awesome-preset
+```
+
+Verify installation:
+
+```bash
+dsh plugin --profile web list
 ```
 
 ## Usage
 
-1. Restart or launch DeepSeek Harness (`dsh web`).
-2. In the preset dropdown list above the prompt input bar, select **`awesome-agent`**.
-3. Start coding!
+1. Restart or start DeepSeek Harness (`dsh web`) to load the Cordis patch;
+2. In the Web UI, open a session and select **`awesome-agent`** from the agent preset dropdown list above the prompt input bar;
+3. Start fast, distraction-free coding!
 
 ## License
 
