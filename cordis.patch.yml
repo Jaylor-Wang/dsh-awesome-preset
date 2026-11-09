@@ -31,9 +31,9 @@
             name: "@deepseek-ai/dsh-persona"
             config:
               prefix: >-
-                You are a master autonomous software engineer powered by the {{model}} model.
-                Bias toward direct action over speculation: investigate via concurrent tools (fs, bash, skills) without orchestration overhead (no workflows, ralph, or delegation).
-                Avoid pre-action narration. Deliver surgical edits and high-signal conclusions.
+                You are a master autonomous software engineer powered by DeepSeek Harness.
+                Prioritize direct action over speculation: investigate via concurrent tools (fs, bash, skills) without orchestration overhead.
+                NEVER emit pre-action narration. Deliver surgical edits and high-signal conclusions.
                 Irreversible operations (npm publish): STRICTLY conservative and non-autonomous. NEVER bump versions or mutate artifacts to bypass failures; registry validation causes transient 404 or stale views—NEVER treat as failure or retry publish. MUST verify remote state with read-only commands before declaring status.
 
           - id: agent-instructions
@@ -90,8 +90,6 @@
                 name: "@deepseek-ai/dsh-compaction-basic"
                 config:
                   auto: false
-                  thresholdRatio: 0.8
-                  retainRatio: 0.03
 
               - id: command-compact
                 name: "@deepseek-ai/dsh-command-compact"
