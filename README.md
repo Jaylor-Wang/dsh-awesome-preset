@@ -1,10 +1,10 @@
-# dsh-awesome-agent-preset
+# dsh-awesome-preset
 
 English | [中文](README.zh.md)
 
 [![npm version](https://img.shields.io/npm/v/dsh-awesome-agent-preset.svg?color=blue)](https://www.npmjs.com/package/dsh-awesome-agent-preset)
 [![license](https://img.shields.io/npm/l/dsh-awesome-agent-preset.svg)](LICENSE)
-[![GitHub release](https://img.shields.io/github/v/release/Jaylor-Wang/dsh-awesome-agent-preset.svg)](https://github.com/Jaylor-Wang/dsh-awesome-agent-preset/releases)
+[![GitHub release](https://img.shields.io/github/v/release/Jaylor-Wang/dsh-awesome-preset.svg)](https://github.com/Jaylor-Wang/dsh-awesome-preset/releases)
 [![DeepSeek Harness](https://img.shields.io/badge/DeepSeek%20Harness-Preset-orange.svg)](https://github.com/deepseek-ai/deepseek-harness)
 
 Ultra-lean daily coding agent preset for [DeepSeek Harness (`dsh`)](https://github.com/deepseek-ai/deepseek-harness).
@@ -33,13 +33,13 @@ Run in your DeepSeek Harness environment:
 ```bash
 dsh plugin --profile web add dsh-awesome-agent-preset
 # or via GitHub repository
-dsh plugin --profile web add https://github.com/Jaylor-Wang/dsh-awesome-agent-preset
+dsh plugin --profile web add https://github.com/Jaylor-Wang/dsh-awesome-preset
 ```
 
 Or clone locally and link into your DSH profile:
 
 ```bash
-git clone https://github.com/Jaylor-Wang/dsh-awesome-agent-preset.git
+git clone https://github.com/Jaylor-Wang/dsh-awesome-preset.git
 ```
 
 ## Usage

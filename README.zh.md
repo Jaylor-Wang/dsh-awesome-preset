@@ -1,10 +1,10 @@
-# dsh-awesome-agent-preset
+# dsh-awesome-preset
 
 [English](README.md) | 中文
 
 [![npm version](https://img.shields.io/npm/v/dsh-awesome-agent-preset.svg?color=blue)](https://www.npmjs.com/package/dsh-awesome-agent-preset)
 [![license](https://img.shields.io/npm/l/dsh-awesome-agent-preset.svg)](LICENSE)
-[![GitHub release](https://img.shields.io/github/v/release/Jaylor-Wang/dsh-awesome-agent-preset.svg)](https://github.com/Jaylor-Wang/dsh-awesome-agent-preset/releases)
+[![GitHub release](https://img.shields.io/github/v/release/Jaylor-Wang/dsh-awesome-preset.svg)](https://github.com/Jaylor-Wang/dsh-awesome-preset/releases)
 [![DeepSeek Harness](https://img.shields.io/badge/DeepSeek%20Harness-Preset-orange.svg)](https://github.com/deepseek-ai/deepseek-harness)
 
 面向 [DeepSeek Harness (`dsh`)](https://github.com/deepseek-ai/deepseek-harness) 的极简日常编码 Agent 预设插件。
@@ -33,13 +33,13 @@
 ```bash
 dsh plugin --profile web add dsh-awesome-agent-preset
 # 或直接通过 GitHub 仓库安装
-dsh plugin --profile web add https://github.com/Jaylor-Wang/dsh-awesome-agent-preset
+dsh plugin --profile web add https://github.com/Jaylor-Wang/dsh-awesome-preset
 ```
 
 或克隆到本地后通过软链接引入：
 
 ```bash
-git clone https://github.com/Jaylor-Wang/dsh-awesome-agent-preset.git
+git clone https://github.com/Jaylor-Wang/dsh-awesome-preset.git
 ```
 
 ## 使用说明

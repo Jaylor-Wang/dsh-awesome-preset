@@ -6,13 +6,13 @@
   "main": "index.js",
   "author": "Jaylor-Wang",
   "license": "MIT",
-  "homepage": "https://github.com/Jaylor-Wang/dsh-awesome-agent-preset#readme",
+  "homepage": "https://github.com/Jaylor-Wang/dsh-awesome-preset#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jaylor-Wang/dsh-awesome-agent-preset.git"
+    "url": "git+https://github.com/Jaylor-Wang/dsh-awesome-preset.git"
   },
   "bugs": {
-    "url": "https://github.com/Jaylor-Wang/dsh-awesome-agent-preset/issues"
+    "url": "https://github.com/Jaylor-Wang/dsh-awesome-preset/issues"
   },
   "keywords": [
     "deepseek-harness",
