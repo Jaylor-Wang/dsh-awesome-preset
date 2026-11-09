@@ -1,5 +1,5 @@
 {
-  "name": "dsh-awesome-agent-preset",
+  "name": "dsh-awesome-preset",
   "version": "2.4.0",
   "description": "Ultra-lean daily coding agent preset for DeepSeek Harness (dsh): direct tools over orchestration, fast and responsive.",
   "type": "module",

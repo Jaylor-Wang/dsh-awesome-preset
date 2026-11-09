@@ -2,8 +2,8 @@
 
 [English](README.md) | 中文
 
-[![npm version](https://img.shields.io/npm/v/dsh-awesome-agent-preset.svg?color=blue)](https://www.npmjs.com/package/dsh-awesome-agent-preset)
-[![license](https://img.shields.io/npm/l/dsh-awesome-agent-preset.svg)](LICENSE)
+[![npm version](https://img.shields.io/npm/v/dsh-awesome-preset.svg?color=blue)](https://www.npmjs.com/package/dsh-awesome-preset)
+[![license](https://img.shields.io/npm/l/dsh-awesome-preset.svg)](LICENSE)
 [![GitHub release](https://img.shields.io/github/v/release/Jaylor-Wang/dsh-awesome-preset.svg)](https://github.com/Jaylor-Wang/dsh-awesome-preset/releases)
 [![DeepSeek Harness](https://img.shields.io/badge/DeepSeek%20Harness-Preset-orange.svg)](https://github.com/deepseek-ai/deepseek-harness)
 
@@ -31,7 +31,7 @@
 在 DeepSeek Harness 环境中运行：
 
 ```bash
-dsh plugin --profile web add dsh-awesome-agent-preset
+dsh plugin --profile web add dsh-awesome-preset
 # 或直接通过 GitHub 仓库安装
 dsh plugin --profile web add https://github.com/Jaylor-Wang/dsh-awesome-preset
 ```
