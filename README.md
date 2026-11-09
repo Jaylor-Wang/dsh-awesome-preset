@@ -56,7 +56,7 @@ dsh plugin --profile web list
 ## Usage
 
 1. Restart or start DeepSeek Harness (`dsh web`) to load the Cordis patch;
-2. In the Web UI, open a session and select **`awesome-agent`** from the agent preset dropdown list above the prompt input bar;
+2. In the Web UI, open a session and select **`awesome`** from the agent preset dropdown list above the prompt input bar;
 3. Start fast, distraction-free coding!
 
 ## License

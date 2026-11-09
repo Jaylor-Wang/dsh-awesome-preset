@@ -14,16 +14,16 @@
   disabled: true
 
 # ── Agent 预设主体 ─────────────────────────────────────────────────────────────
-# Agent preset awesome-agent
+# Agent preset awesome
 # Ultra-lean daily coding agent: files, shell, skills, background jobs;
 # no present/goals/plan mode/subagents/todo/web tools.
 # Composition is frozen at mount — edit this file, reinstall, start a new session.
 - insert:
-    - id: preset-awesome-agent
+    - id: preset-awesome
       name: "@deepseek-ai/dsh-agent-preset"
       config:
-        id: awesome-agent
-        name: awesome-agent
+        id: awesome
+        name: awesome
         order: 10
         description: 极简瘦身版日常编码 Agent：保留文件、Shell、Skills、后台任务；不含 文件交付工具(present) / 目标 / 计划 / 子代理 / TODO。
         plugins:

@@ -56,7 +56,7 @@ dsh plugin --profile web list
 ## 使用说明
 
 1. 启动或重启 DeepSeek Harness（`dsh web`），加载 Cordis 补丁树；
-2. 在 Web 界面中打开会话，从输入框上方的 Agent 预设下拉列表中选择 **`awesome-agent`**；
+2. 在 Web 界面中打开会话，从输入框上方的 Agent 预设下拉列表中选择 **`awesome`**；
 3. 立即体验纯粹、极速的直接编码工作流！
 
 ## 开源协议
